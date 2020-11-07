@@ -24,7 +24,7 @@ b = 6
 while b > 0:
     b -= 1
     if b == 2:
-        continue   #using continue statement, iteration does not include 2
+        continue   #using continue statement, iteration stops at 2 then continues on
     print('{} mississippi'.format(b))
 
 c = 1
@@ -57,3 +57,23 @@ for i in range (10):
     print(i)
 else:  #using else statement within for loop
     print("Ta-da!")
+
+#-----------------self practice array loop----------------------
+name = 'Python'
+print(len(name)) #prints number of elements within this value
+
+for i in enumerate(name):  #using enumerate() method to iterate through elements within string array
+        print(i)
+
+
+
+
+
+Food = ['turkey', 'mashed potatoes', 'cornbread', 'pumpkin pie', 'cranberry sauce']
+for i in Food:
+    print(i)
+
+x = Food.count('turkey')  #counts number of times turkey appears in array
+print(x)
+Food.sort()   #sorts array alphabetically 
+print(Food)
