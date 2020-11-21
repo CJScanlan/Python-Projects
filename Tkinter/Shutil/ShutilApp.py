@@ -70,9 +70,8 @@ def checkFiles(self,source,destination):
         mtime = dt.datetime.fromtimestamp(st.st_mtime)
         if mtime > Hour24:   #if modified time less than 24 hrs, move to destination folder
             shutil.move(source+i, destination)
-            messagebox.showinfo("Files transferred","Recently modified files have been transferred.")
-        else:
-            messagebox.showinfo("No Files to Transfer","There were no recently modified files.")
+            print(i+" was successfully transferred.")
+    
 
 
 
