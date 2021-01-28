@@ -2,10 +2,10 @@
 Basic projects written in Python. They use various modules such as tkinter and sqlite3.
 
 # Projects:
-<a href="https://github.com/CJScanlan/Python-Projects/tree/main/Tkinter/Phonebook">Phonebook</a><br>
-<a href="https://github.com/CJScanlan/Python-Projects/tree/main/Tkinter/Shutil">Check Files Gui</a><br>
-<a href="https://github.com/CJScanlan/Python-Projects/tree/main/Tkinter/WebBrowserApp">Webpage Generator Gui</a><br>
-<a href="https://github.com/CJScanlan/Python-Projects/tree/main/Tkinter/Student%20Tracking">Student Tracking Gui</a><br>
+* <a href="https://github.com/CJScanlan/Python-Projects/tree/main/Tkinter/Phonebook">Phonebook</a><br>
+* <a href="https://github.com/CJScanlan/Python-Projects/tree/main/Tkinter/Shutil">Check Files Gui</a><br>
+* <a href="https://github.com/CJScanlan/Python-Projects/tree/main/Tkinter/WebBrowserApp">Webpage Generator Gui</a><br>
+* <a href="https://github.com/CJScanlan/Python-Projects/tree/main/Tkinter/Student%20Tracking">Student Tracking Gui</a><br>
 
 # Phonebook
 This project functions as a phonebook for the user. It saves a contact's name, phonenumber, and email address in a database and allows the user to update and delete previous stored entries. 
