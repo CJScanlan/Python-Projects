@@ -11,7 +11,7 @@ Basic projects written in Python. They use various modules such as tkinter and s
 This project functions as a phonebook for the user. It saves a contact's name, phonenumber, and email address in a database and allows the user to update and delete previous stored entries. 
 
 ### Check Files Gui
-This project allows the user to transfer .txt files from one chosen directory to another.
+This project allows the user to transfer .txt files from one chosen directory to another. It utilizes datetime to check if the file has been modified within the last 24 hours, and if so - the file is transferred.
 
 ### Webpage Generator Gui
 This project allows the user to create or open a HTML file, then launches the file to the webbrowser and saves the updates.
